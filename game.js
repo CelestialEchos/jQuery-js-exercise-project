@@ -12,7 +12,7 @@ $(document).keypress(function(){
     if(started == false){
 
         $("h1").text("Game started");
-        nextSequence();
+        setTimeout(nextSequence,800);
         // console.log(gamePattern);
         // console.log(userClickedPattern);
         started = true;
